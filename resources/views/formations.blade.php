@@ -8,9 +8,9 @@
 
 <table class="table table-bordered">
     <tr>
-    <th>Nom</th>
+    <th>Nom</th>Remove-Item -Recurse -Force
     <th>Duree</th>
-    <th>Formateur</th>
+    <th>Formateurr</th>
     <th>Cout</th>
     </tr>
     @foreach($formations as $formation)

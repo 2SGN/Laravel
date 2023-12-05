@@ -17,12 +17,6 @@ use App\Http\Controllers\FormationController;
 
 
 
-Route::get('/', function () {
-    return view('welcome');
-});
-Route::get('/apprenant', function () {
-    return view('apprenant');
-});
 //Role:appeler le controlleur
 Route::get('/liste_apprenants',[ApprenantController::class,'index']);
 Route::get('/liste_formations',[FormationController::class,'index']);
