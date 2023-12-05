@@ -8,7 +8,7 @@
 
 <table class="table table-bordered">
     <tr>
-    <th>Nom</th>Remove-Item -Recurse -Force
+    <th>Nom</th>
     <th>Duree</th>
     <th>Formateurr</th>
     <th>Cout</th>
